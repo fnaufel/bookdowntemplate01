@@ -1,0 +1,23 @@
+bookdown::bs4_book:
+  description: ""
+  url: 'https\://fnaufel.github.io'
+  github-repo: fnaufel/???
+  site: bookdown::bookdown_site
+  includes:
+    in_header: ['preamble.html']
+  theme:
+    primary: "#637238"
+  repo: https://github.com/fnaufel/???
+  css: styles.css
+
+bookdown::pdf_book:
+  includes:
+    in_header: "tex/00-preambulo.tex"
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+  pandoc_args: [
+    -V, links-as-notes
+  ]
+  md_extensions: +raw_attribute
+

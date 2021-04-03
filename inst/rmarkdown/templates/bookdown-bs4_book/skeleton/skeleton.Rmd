@@ -1,0 +1,18 @@
+--- 
+knit: "bookdown::render_book"
+title: ""
+author: "fnaufel"
+date: "`r format(Sys.Date(), '%d/%m/%Y')`"
+lang: 'pt-br'
+
+cover-image: images/cover.png
+
+documentclass: "report"
+classoption: '12pt'
+bibliography: []
+biblio-style: apalike
+link-citations: yes
+---
+
+# Apresentação {- #apresentacao}
+
