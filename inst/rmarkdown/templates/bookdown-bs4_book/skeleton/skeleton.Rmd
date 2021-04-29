@@ -1,5 +1,4 @@
 --- 
-knit: "bookdown::render_book"
 title: ""
 author: "fnaufel"
 date: "`r format(Sys.Date(), '%d/%m/%Y')`"
