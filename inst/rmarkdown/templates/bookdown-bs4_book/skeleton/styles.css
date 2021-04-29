@@ -1,4 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3, h4, h5, h6, nav, footer, .chapter-nav {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* All links */
 a {
   color: #7c480d;
@@ -30,7 +40,7 @@ main a {
   margin: 1rem calc(-2px - 0.5em);
   padding: 1em 1em 1em 1em;
   border: 2px solid #ccc;
-  background: #f8f8f8 5px center/3em no-repeat; 
+  background: #f8f8f8 5px center/3em no-repeat;
 }
 
 .rmdbox > *:last-child {
@@ -46,7 +56,7 @@ main a {
 
 .rmdcaution, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning {
   padding: 1em 1em 1em 6em;
-  background: #f8f8f8 25px center/3em no-repeat; 
+  background: #f8f8f8 25px center/3em no-repeat;
 }
 
 .rmdcaution {
@@ -138,16 +148,16 @@ h3 > .header-section-number {
 
 .rmdbox > h3,
 .rmdcaution > h3,
-.rmdimportant > h3, 
+.rmdimportant > h3,
 .rmdwarning > h3,
 .rmdtip > h3,
 .rmdnote > h3,
 .rmdbox > h4,
 .rmdcaution > h4,
-.rmdimportant > h4, 
+.rmdimportant > h4,
 .rmdwarning > h4,
 .rmdtip > h4,
-.rmdnote > h4 
+.rmdnote > h4
 {
   margin-top: 0;
 }
