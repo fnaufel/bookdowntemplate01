@@ -1,13 +1,14 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Domine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Lexend&display=swap');
 
 body {
-  font-family: 'Domine', serif;
+  font-family: 'Lexend', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, nav, footer, .chapter-nav {
   font-family: 'Roboto', sans-serif;
 }
+
 
 /* All links */
 a {
