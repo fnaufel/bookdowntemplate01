@@ -4,10 +4,10 @@ library(knitr)
 
 opts_chunk$set(
   collapse = TRUE,
-  cache = TRUE,
-  out.width = "70%",
+  cache = FALSE,
+  out.width = "90%",
   fig.align = 'center',
-  fig.width = 6,
+  fig.width = 7,
   fig.show = "hold"
 )
 
