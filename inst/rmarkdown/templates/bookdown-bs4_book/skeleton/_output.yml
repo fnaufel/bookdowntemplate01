@@ -9,6 +9,7 @@ bookdown::bs4_book:
     primary: "#637238"
   repo: https://github.com/fnaufel/???
   css: styles.css
+  df_print: paged
 
 bookdown::pdf_book:
   includes:
