@@ -10,6 +10,11 @@ h1, h2, h3, h4, h5, h6, nav, footer, .chapter-nav {
 }
 
 
+/* Make summarytools table use monospace font */
+.st-table {
+  font-family: monospace;
+}
+
 /* All links */
 a {
   color: #7c480d;
