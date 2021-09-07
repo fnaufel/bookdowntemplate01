@@ -52,7 +52,7 @@ main a {
   margin: 1rem calc(-2px - 0.5em);
   padding: 1em 1em 1em 1em;
   border: 2px solid #ccc;
-  background: #f8f8f8 5px center/3em no-repeat;
+  background: #f8f8f8 25px 25px no-repeat;
 }
 
 .rmdbox > *:last-child {
@@ -68,7 +68,7 @@ main a {
 
 .rmdcaution, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning {
   padding: 1em 1em 1em 6em;
-  background: #f8f8f8 25px center/3em no-repeat;
+  background: #f8f8f8 25px 25px no-repeat;
 }
 
 .rmdcaution {
