@@ -16,11 +16,21 @@ options(dplyr.print_min = 6, dplyr.print_max = 6)
 # Supress crayon output
 options(crayon.enabled = FALSE)
 
-# Avoid scientific notation and use a comma as decimal separator
 options(
+  # Avoid scientific notation
   scipen = 15,
-  OutDec = ','
+  # Use a comma as decimal separator
+  OutDec = ',',
+  # Number of decimal digits for numbers produced by inline R code
+  fmdigits = 2
 )
+
+# Useful libraries
+library(glue)
+library(patchwork)
+library(latex2exp)
+library(kableExtra)
+options(knitr.kable.NA = '')
 
 # For nice dataframe summaries
 library(summarytools)
@@ -61,11 +71,17 @@ theme_set(
 # Format a number with thousand separators (default point)
 # and decimal comma enclosed in curly braces for LaTeX printing.
 # CAREFUL: if called outside math mode, will print the braces!
-fm <- function(x, digits = 4, big = '.', decimal = '{,}', ...) {
+fm <- function(
+  x,
+  digits = getOption('fmdigits', default = 4),
+  big = '.',
+  decimal = '{,}',
+  ...
+) {
   if (!is.numeric(x)) {
     x
   } else {
-    if (x != floor(x)) {
+    if (any(x != floor(x))) {
       # floating point
       formatC(
         x,
@@ -87,7 +103,6 @@ fm <- function(x, digits = 4, big = '.', decimal = '{,}', ...) {
     }
   }
 }
-
 
 # Set this as a hook for inline R code
 knitr::knit_hooks$set(inline = fm)
