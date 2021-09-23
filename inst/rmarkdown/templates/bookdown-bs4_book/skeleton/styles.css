@@ -14,10 +14,25 @@ h1, h2, h3, h4, h5, h6, nav, footer, .chapter-nav {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Fix font in paged data frames */
+.pagedtable tbody {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Fix font in tables */
+table.lightable-paper tbody {
+  font-family: 'JetBrains Mono', monospace; !important;
+}
 
 /* Make summarytools table use monospace font */
 .st-table {
-  font-family: monospace;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Fix gt tables */
+.gt_table {
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 /* All links */
@@ -49,7 +64,7 @@ main a {
 
 .rmdbox {
   margin: 1rem calc(-2px - 0.5em);
-  padding: 1em 1em 3ex 6em;
+  padding: 1em 1em 3ex 1em;
   border: 2px solid #ccc;
   background: #f8f8f8;
 }
