@@ -1,19 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Lexend&family=JetBrains+Mono&display=swap');
-
-
-body {
-  font-family: 'Lexend', sans-serif;
-}
-
-code {
-  font-family: 'JetBrains Mono', monospace;
-}
-
-h1, h2, h3, h4, h5, h6, nav, footer, .chapter-nav {
-  font-family: 'Roboto', sans-serif;
-}
-
 /* Fix font in paged data frames */
 .pagedtable tbody {
   font-family: 'JetBrains Mono', monospace;
@@ -33,12 +18,6 @@ table.lightable-paper tbody {
 .gt_table {
   margin-top: 1em;
   margin-bottom: 2em;
-}
-
-/* All links */
-a {
-  color: #7c480d;
-  font-weight: 500;
 }
 
 /* Links in main text (not navigation) */
