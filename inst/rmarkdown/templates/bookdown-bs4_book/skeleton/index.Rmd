@@ -3,11 +3,11 @@
 
 title: "???????"
 description: "???????"
-author: "fnaufel"
-date: "`r format(Sys.Date(), '%d/%m/%Y')`"
+author: "Fernando Náufel"
+date: "(versão de `r format(Sys.Date(), '%d/%m/%Y')`)"
 lang: 'pt-br'
 
-cover-image: images/cover.png
+cover-image: images/?????
 
 documentclass: "report"
 classoption: '12pt'
