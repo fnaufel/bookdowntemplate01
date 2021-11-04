@@ -10,7 +10,8 @@ lang: 'pt-br'
 cover-image: images/?????
 
 documentclass: "report"
-classoption: '12pt'
+classoption: '11pt'
+geometry: 'margin=1in'
 bibliography: []
 biblio-style: apalike
 link-citations: yes
