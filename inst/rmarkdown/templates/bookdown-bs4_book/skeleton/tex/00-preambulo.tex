@@ -10,12 +10,10 @@
 % Para bibliografia em português
 \usepackage{babelbib}
 
-% Para títulos de capítulos e seções:
-\usepackage[nobottomtitles*]{titlesec}
-
 %%%%%%%%%%%%%%%
 %
 % Titulos de capítulos e seções
+\usepackage[nobottomtitles*]{titlesec}
 
 \titleformat{\chapter}[display]%
 {\bfseries\Large}%
@@ -34,7 +32,8 @@
 
 \titleformat{\subsection}[block]%
 {\bfseries}%
-{\thesubsection}{.5em}{\titlerule\\[.8ex]\bfseries}
+{\thesubsection}{.5em}{\titlerule\\[.8ex]\bfseries}%
+[\vspace{1ex}]
 
 
 %%%%%%%%%%%%%%%
